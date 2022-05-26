@@ -7,7 +7,7 @@
 
 // the body element is our primary layout grid
 body {
-  background-color: rgb(34, 34, 34);
+  background-color: $backgrund-color;
   height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
