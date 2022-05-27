@@ -2,7 +2,7 @@
 layout: post
 title: ادوات مفيدة للمترجمين
 author: dark
-date: '2022-07-06 12:00:00'
+date: '2022-06-27 12:00:00'
 categories: misc
 ---
 ### تطبيقات
@@ -14,8 +14,7 @@ categories: misc
 البحث والاستبدال في الفصل  
 وضع صورة من الانترنت. (برابط)
 
-[pure
-writer](https://play.google.com/store/apps/details?id=com.drakeet.purewriter):
+[pure writer](https://play.google.com/store/apps/details?id=com.drakeet.purewriter):
 تطبيق كتابة مليء بالمميزات. (مجاني مع مزايا مدفوعة) يمكنك استبدال كلمة
 في مجلد كامل  
 يمكنك وضع اي نص في شريط الأدوات لتسهيل الوصول  
