@@ -1,26 +1,26 @@
 ---
 layout: post
-title: Another post
-author: john_doe
-date: '2018-07-06 12:00:00'
+title: ادوات مفيدة للمترجمين
+author: dark
+date: '2022-07-06 12:00:00'
 categories: misc
 ---
 
 ### تطبيقات
 
--   [markor](https://play.google.com/store/apps/details?id=net.gsantner.markor):
+[markor](https://play.google.com/store/apps/details?id=net.gsantner.markor):
     تطبيق كتابة يتميز بالسلاسة (مجاني بالكامل) يسمح لك بنسخ الفصل منسقاً
     إلى الموقع  
     وضع ملاحظة مطوية البحث والاستبدال في الفصل
 
--   [pure
+[pure
     writer](https://play.google.com/store/apps/details?id=com.drakeet.purewriter):تطبيق
     كتابة. (مجاني مع مزايا مدفوعة)  
     يمكنك استبدال كلمة في مجلد كامل يمكنك وضع اي نص في شريط الأدوات
     لتسهيل الوصول يصنع نسخ احتياطية على الانترنت  
     برنامج للحاسوب [pure writer PC](https://writer.drakeet.com/desktop)
 
--   [Jotterpad](https://play.google.com/store/apps/details?id=com.jotterpad.x):
+[Jotterpad](https://play.google.com/store/apps/details?id=com.jotterpad.x):
     تطبيق متوسط يمكنك تجربته ( مجاني بمزايا مدفوعة)
 
     -   واجهة جيدة
