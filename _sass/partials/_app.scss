@@ -27,6 +27,7 @@ body > * {
 // it is also a grid for the logo and nav
 header {
   grid-column: full;
+  border-radius: 2px;
   display: grid;
   background-color: $brand-color;
   padding: 2rem;
