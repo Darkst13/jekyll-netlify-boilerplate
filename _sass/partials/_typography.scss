@@ -96,6 +96,7 @@ a:active {
 }
 
 header > h1 {
+  -webkit-text-stroke: 0.1px;
   line-height: $base-line-height;
   font-weight: $base-font-weight;
   @media screen and (min-width: $screen-sm-min) {
