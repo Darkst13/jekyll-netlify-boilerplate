@@ -1,10 +1,11 @@
 ---
 layout: post
-title: ادوات مفيدة للمترجمين
+title: translation tools
 author: dark
 date: '2022-06-27 12:00:00'
 categories: misc
 ---
+
 ### تطبيقات
 
 [markor](https://play.google.com/store/apps/details?id=net.gsantner.markor):
