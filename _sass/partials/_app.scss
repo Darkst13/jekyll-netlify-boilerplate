@@ -93,6 +93,7 @@ header > nav {
 
 // our main content wrapper, the width scales with font size
 main {
+  direction: rtl;
   width: 100%;
   max-width: 52rem;
   margin-right: auto;
