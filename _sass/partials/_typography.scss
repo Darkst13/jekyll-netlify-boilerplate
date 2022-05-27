@@ -12,11 +12,13 @@ html {
   }
 }
 
+
 // now we can specify a single font size in rem for each of our elements
 // the root breakpoints above will then scale all elements together
 
 body {
   color: $text-color;
+  -webkit-text-stroke: 0.1px;
   font-family: $base-font;
   line-height: $base-line-height;
   font-weight: $base-font-weight;
@@ -37,7 +39,6 @@ h1,h2,h3,h4,h5,h6,figure {
 }
 p{
   direction: rtl;
-  stroke: white 1px;
 }
 
 
