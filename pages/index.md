@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: القائمة الرئيسية
 title: مرحباً
 permalink: /
 section: home

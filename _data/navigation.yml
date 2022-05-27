@@ -1,6 +1,6 @@
 # specify main menu items here
 
-- text: Home
+- text: القائمة الرئيسية
   url: /
 - text: About
   url: /about
