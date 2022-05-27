@@ -7,11 +7,11 @@ $link-color: #3aa724;
 $link-hover-color: #135721;
 $grey-bg-color: #24272c;
 $hairline-color: rgb(230,230,230);
-$selection-bg-color: #64DFDF;
+$selection-bg-color: #009696;
 
 
 // typographic defaults
-$base-font: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue;
+$base-font: mainfont, subfont;
 $code-font: Courier, monospace;
 $base-font-size: 62.5%;
 $base-font-weight: 300;
