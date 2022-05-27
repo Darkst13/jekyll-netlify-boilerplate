@@ -74,6 +74,7 @@ header > nav {
       a,
       a:visited {
         color: white;
+        stroke: 1px white;
         text-decoration: none;
         border: 0;
         @media screen and (min-width: $screen-sm-min) {
@@ -121,6 +122,8 @@ html[data-current="blog"] main > section {
     border-bottom: 0.05em solid $hairline-color;
     p {
       padding-bottom: 0;
+      stroke: 1px white;
+      direction: rtl;
     }
   }
 }
