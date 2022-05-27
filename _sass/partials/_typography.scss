@@ -33,11 +33,11 @@ h1,h2,h3,h4,h5,h6,figure {
   p + &,
   figure + & {
     padding-top: 2rem;
-    stroke: white 1px;
   }
 }
 p{
   direction: rtl;
+  stroke: white 1px;
 }
 
 
