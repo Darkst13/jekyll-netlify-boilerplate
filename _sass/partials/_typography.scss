@@ -33,12 +33,17 @@ h1,h2,h3,h4,h5,h6,figure {
   p + &,
   figure + & {
     padding-top: 2rem;
+    stroke: white 1px;
   }
+}
+p{
+  direction: rtl;
 }
 
 
 p.intro {
   font-size: 2.4rem;
+  direction: rtl;
   color: lighten($text-color, 40%);
   padding-bottom: 4rem;
   @media screen and (min-width: $screen-sm-min) {
@@ -49,6 +54,7 @@ p.intro {
 h1,h2,h3,h4,h5,h6 {
   font-weight: $bold-font-weight;
   line-height: $base-line-height / 1.3;
+  direction: rtl;
 }
 
 h2 {
@@ -92,6 +98,6 @@ header > h1 {
   line-height: $base-line-height;
   font-weight: $base-font-weight;
   @media screen and (min-width: $screen-sm-min) {
-    text-align: left;
+    text-align: center;
   }
 }
