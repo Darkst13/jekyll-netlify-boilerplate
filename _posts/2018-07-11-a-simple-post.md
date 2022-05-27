@@ -2,7 +2,7 @@
 layout: post
 title: A simple blog post
 author: Dark_13
-date: 2018-07-11T00:12:57.000Z
+date: 2020-07-11T00:12:57.000Z
 intro_paragraph: ''
 categories: misc
 ---
