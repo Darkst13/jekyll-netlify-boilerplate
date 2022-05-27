@@ -2,7 +2,7 @@
 layout: post
 title: The most recent post so far
 author: john_doe
-date: '2022 06 27'
+date: '2022 06 27 12:00:00'
 intro_paragraph: ''
 categories: misc
 ---
