@@ -1,29 +1,72 @@
 ---
 layout: post
-title: Welcome to Jekyll!
-meta_description: A description may also be set in a post. You can find more information about it in pages/about.md.
-author: dan_urbanowicz
-date: '2018-07-03 12:00:00'
-categories: misc
+title:   برامج مفيدة للمترجمين!
+meta_description: برامج مفيدة للمترجمين
+author: DArky
+date: '2022-06-03 12:00:00'
+categories: usefull
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+النسخة 1.0
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+------------------------------------------------------------------------
 
-Jekyll also offers powerful support for code snippets:
+### تطبيقات
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+-   [markor](https://play.google.com/store/apps/details?id=net.gsantner.markor):
+    تطبيق كتابة يتميز بالسلاسة (مجاني بالكامل) يسمح لك بنسخ الفصل منسقاً
+    إلى الموقع  
+    وضع ملاحظة مطوية البحث والاستبدال في الفصل
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+-   [pure
+    writer](https://play.google.com/store/apps/details?id=com.drakeet.purewriter):تطبيق
+    كتابة. (مجاني مع مزايا مدفوعة)  
+    يمكنك استبدال كلمة في مجلد كامل يمكنك وضع اي نص في شريط الأدوات
+    لتسهيل الوصول يصنع نسخ احتياطية على الانترنت  
+    برنامج للحاسوب [pure writer PC](https://writer.drakeet.com/desktop)
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+-   [Jotterpad](https://play.google.com/store/apps/details?id=com.jotterpad.x):
+    تطبيق متوسط يمكنك تجربته ( مجاني بمزايا مدفوعة)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    -   واجهة جيدة
+    -   يزامن ملفات مع السحابة
+    -   نسخة متصفح
+        [jotterPad](https://jotterpad.app/app/editor/local/?getstarted=true&new=markdown)
+
+[Doc](https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.docs):
+تطبيق مستندات جوجل (مجاني بالكامل) بحث واستبدال تصحيح تلقائي مشاركة
+المستند [doc](https://docs.google.com/) نسخة متصفح  
+تزامن ملفات مجاني
+
+[DicBox](https://play.google.com/store/apps/details?id=com.grandsons.dictboxar):
+قاموس يسمح لك بالبحث عن الكلمة في عدة مواقع
+
+[Obdsidian](https://play.google.com/store/apps/details?id=md.obsidian&hl=de&gl=US):
+تطبيق كتابة اضافات نسخة حاسوب
+
+### برامج
+
+[Obsidian](https://obsidian.md/): برنامج كتابة يتميز بامكانية اضافة
+اضافات للبرنامج مما يحسن تجربتك.
+
+[notePad ++](https://notepad-plus-plus.org/) برنامج ملاحظات نظيف إن أردت
+تجربة بسيطة
+
+### مواقع
+
+[markdown TO Html](https://markdowntohtml.com/#) موقع تحويل نصوص
+mdarkdwn  الى اكواد html
+
+[Magic Search](https://magicsearch.org/) موقع يقوم بالبحث في عدة قواميس
+
+[write-Box](https://write-box.appspot.com/) موقع بسيط للكتابة
+
+[google doc](https://docs.google.com/)  
+google doc للمتصفح
+
+[العنقاء](https://alankaa.com/)  
+قاموس عربي  للاشتقاق والتصريف
+
+[onlinetr](https://www.onlinedoctranslator.com/en/)
+
+[Translate a file with Matecat](https://www.matecat.com/)  
+موقع متخصص في الترجمة خصيصاً 
