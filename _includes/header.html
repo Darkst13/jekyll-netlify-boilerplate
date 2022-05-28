@@ -20,7 +20,7 @@
     padding: 0 18px;
     display: none;
     top: 40px;
-    position: fixed;
+    position: absolute;
     overflow: hidden;
     background-color: #f1f1f1;
   }
@@ -41,11 +41,11 @@
     });
   }
   </script>  
-<header class="collapsible">
+<header>
 
-  <button type="button" >
+  <h1 type="button"  class="collapsible">
     <a style="font-family: 'Rubik Glitch', cursive; font-size: x-large;">{{ site.title | escape }}</a>
-  </button>
+  </h1>
 <div class="content" > 
   <nav>
     {% include navigation.html navigation=site.data.navigation %}
