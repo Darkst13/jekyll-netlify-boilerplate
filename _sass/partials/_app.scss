@@ -43,9 +43,6 @@ header > h1 {
   padding-bottom: 1rem;
   @media screen and (min-width: $screen-sm-min) {
     padding-bottom: 0;
-    @media (max-width: 900px) {
-      display: none;
-  }
   }
  
 }
