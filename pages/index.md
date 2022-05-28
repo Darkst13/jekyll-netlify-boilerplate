@@ -3,10 +3,8 @@ layout: home
 title: مرحباً
 permalink: /
 section: home
-intro_paragraph: |-
-
-في موقع دارك اللطيف...
-
+intro_paragraph: >
+  موقع دارك اللطيف الظريف الصغير في...
 ---
 
 
