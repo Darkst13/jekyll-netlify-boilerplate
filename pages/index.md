@@ -4,6 +4,5 @@ title: مرحباً
 permalink: /
 section: home
 intro_paragraph: >
-
-في موقع دارك اللطيف الصغير...
+في موقع دارك اللطيف...
 ---
