@@ -172,11 +172,7 @@ html[data-current="contact"] main > form {
 
 footer {
   grid-column: full;
-   right: 40%;
   text-align: center;
-  align-items: center;
-  width: fit-content;
-  border-radius: 90px 90px 0px 0px;
   display: grid;
   grid-template-columns:
     [full-start] minmax(1rem, 1fr)
