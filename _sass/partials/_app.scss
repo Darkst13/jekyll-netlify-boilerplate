@@ -45,7 +45,7 @@ header > h1 {
   @media screen and (min-width: $screen-sm-min) {
     padding-bottom: 0;
     @media (max-width: 900px) {
-      position: relative;
+      position: fixed;
       align-self: center;
   }
   }
