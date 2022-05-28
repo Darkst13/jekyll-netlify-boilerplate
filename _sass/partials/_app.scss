@@ -28,7 +28,10 @@ body > * {
 header {
   grid-column: full;
   width: fit-content;
+  font-size: large;
   border-radius: 0px 0px 90px 90px;
+  position: relative;
+  top: 0%;
   display: grid;
   background-color: $brand-color;
   padding: 2rem;
@@ -173,6 +176,8 @@ html[data-current="contact"] main > form {
 
 footer {
   grid-column: full;
+  position: relative;
+  bottom: 0%;
   text-align: center;
   width: fit-content;
   border-radius: 90px 90px 0px 0px;
