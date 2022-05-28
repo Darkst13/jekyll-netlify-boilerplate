@@ -174,14 +174,12 @@ footer {
   grid-column: full;
   text-align: center;
   display: grid;
-  height: fit-content;
   grid-template-columns:
     [full-start] minmax(1rem, 1fr)
     [main-start] minmax(0, 50rem) [main-end]
     minmax(1rem, 1fr) [full-end];
   background-color: $grey-bg-color;
   > small {
-    font-size: x-large;
     grid-column: main;
   }
 }
