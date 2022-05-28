@@ -40,6 +40,7 @@ header {
 // logo, is a grid item
 header > h1 {
   display: inline-block;
+  align-items: center;
   width: min-content;
   padding-bottom: 1rem;
   @media screen and (min-width: $screen-sm-min) {
