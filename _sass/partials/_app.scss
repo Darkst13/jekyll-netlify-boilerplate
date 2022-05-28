@@ -174,7 +174,6 @@ footer {
   grid-column: full;
   text-align: center;
   display: grid;
-  font-size: x-large;
   height: fit-content;
   grid-template-columns:
     [full-start] minmax(1rem, 1fr)
@@ -182,6 +181,7 @@ footer {
     minmax(1rem, 1fr) [full-end];
   background-color: $grey-bg-color;
   > small {
+    font-size: x-large;
     grid-column: main;
   }
 }
