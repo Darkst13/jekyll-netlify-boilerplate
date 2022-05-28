@@ -7,7 +7,10 @@
 
 // the body element is our primary layout grid
 body {
-  background-color: $backgrund-color;
+  @media (max-width: 900px) {
+    background-image: url(https://resi.ze-robot.com/dl/st/stars-amp-mountains-720%C3%971280.jpg);
+};
+background-image: url(https://resi.ze-robot.com/dl/st/stars-amp-mountains-1280%C3%97720.jpg);
   height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
