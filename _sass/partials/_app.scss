@@ -43,8 +43,16 @@ header > h1 {
   padding-bottom: 1rem;
   @media screen and (min-width: $screen-sm-min) {
     padding-bottom: 0;
+  }
+  @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  header.h1.a {
     text-align: center;
   }
+ }
+
+}
   a,
   a:visited {
     text-decoration: none;
