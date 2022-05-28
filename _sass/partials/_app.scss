@@ -17,6 +17,15 @@ body {
     minmax(1rem, 1fr) [full-end];
 }
 
+header,footer{
+  @media (max-width: 900px) {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+}
+
+
 // by default, make any new children of body to span the full track
 body > * {
   grid-column: full;
