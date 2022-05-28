@@ -27,6 +27,7 @@ body > * {
 // it is also a grid for the logo and nav
 header {
   grid-column: full;
+  width: fit-content;
   border-radius: 0px 0px 90px 90px;
   display: grid;
   background-color: $brand-color;
@@ -172,6 +173,9 @@ html[data-current="contact"] main > form {
 
 footer {
   grid-column: full;
+  text-align: center;
+  width: fit-content;
+  border-radius: 90px 90px 0px 0px;
   display: grid;
   grid-template-columns:
     [full-start] minmax(1rem, 1fr)
