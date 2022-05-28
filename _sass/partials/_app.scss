@@ -45,12 +45,10 @@ header > h1 {
   @media screen and (min-width: $screen-sm-min) {
     padding-bottom: 0;
     align-items: center;
-    right: 40%;
+    right: 40%; left: 40%;
   }
 }
-header.h1.a{
-  right: 40%; position: relative;
-}
+
   a,
   a:visited {
     text-decoration: none;
