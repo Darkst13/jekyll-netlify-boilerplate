@@ -63,6 +63,8 @@ header > h1 {
 header,footer{
   @media (max-width: 900px) {
     align-self: stretch;
+    align-items: stretch;
+    align-content: stretch;
   }
  
 }
