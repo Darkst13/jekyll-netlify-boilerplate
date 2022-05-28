@@ -53,10 +53,13 @@ header > h1 {
   @media screen and (min-width: $screen-sm-min) {
     padding-bottom: 0;
   }
+}
+
+header,footer{
   @media (max-width: 900px) {
     position:relative;
     right: 40%;
-    align-self: center;
+    align-self: stretch;
   }
  
 }
