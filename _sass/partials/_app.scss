@@ -27,9 +27,7 @@ body > * {
 // it is also a grid for the logo and nav
 header {
   grid-column: full;
-  width: fit-content;
   font-size: large;
-  top: 0%;
   display: grid;
   background-color: $brand-color;
   padding: 2rem;
