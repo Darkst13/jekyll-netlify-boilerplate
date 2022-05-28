@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: معلومات
 permalink: /about
 section: about
 intro_paragraph: |
