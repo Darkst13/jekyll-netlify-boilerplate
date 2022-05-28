@@ -10,17 +10,8 @@
     right: 40%; top: 0%;
     border-radius: 0px 0px 90px 90px;
   }
-  
-  .active, .collapsible:hover {
-    background-color: #555;
-  }
-  
-  .content {
-    display: none;
-    position: relative;
-    overflow: hidden;
-  }
   </style>
+  
 
 <header>
 
@@ -28,7 +19,7 @@
     <a style="font-family: 'Rubik Glitch', cursive; font-size: x-large;">{{ site.title | escape }}</a>
   </h1>
  
-  <nav class="content">
+  <nav>
     {% include navigation.html navigation=site.data.navigation %}
   </nav>
 
