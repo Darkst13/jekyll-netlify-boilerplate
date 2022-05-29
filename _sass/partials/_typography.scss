@@ -26,12 +26,24 @@ body {
 	font-variant: normal;
   font-size: 2rem; // this is equivalent to 16px
 }
+a, a * {
+  color: #409B9B !important;
+  text-decoration: none !important}
+a:hover, a:hover *, a:visited:hover, a:visited:hover *, span[onclick]:hover, div[onclick]:hover, [role="link"]:hover, [role="link"]:hover *, [role="button"]:hover *, [role="menuitem"]:hover, [role="menuitem"]:hover *, .link:hover, .link:hover * {
+  color: #F0F0F0 !important;
+  text-shadow: 0 0 5px rgba(255,255,200,0.9) !important}
+a:visited, a:visited * {
+  color: #607069 !important}
+a.highlight, a.highlight *, a.active, a.active *, .selected, .selected *, [href="#"] {
+  color: #DDD !important;
+  font-weight: bold !important}
 
-h1,h2,h3,h4,h5,h6,p,figure,time {
-  padding-bottom: 2rem;
-  text-align: right;
-  -webkit-text-stroke: 0.1px;
-}
+h1, h2, h3, h4, h5, h6, h1 *, h2 *, h3 *, strong, [id*="headline"], [class*="headline"], [id*="header"], [class*="header"], [class*="header"] td {
+  color: #DDD !important}
+a h1, a h2, a h3, a h4, a h5, a h6, h1 a, h2 a, h3 a, a strong, a[id*="headline"], a[class*="headline"], a[id*="header"], a[class*="header"] {
+  text-decoration: underline !important}
+[class*="error"], [class*="alert"], code, span[onclick], div[onclick] {
+  color: #900 !important}
 
 h1,h2,h3,h4,h5,h6,figure {
   p + &,

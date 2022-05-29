@@ -66,6 +66,7 @@ header,footer{
   }
 }
 
+div[style="display: block;"], div[role="navigation"] {background: rgba(0,0,0,.5) !important}
   a,
   a:visited {
     text-decoration: none;
