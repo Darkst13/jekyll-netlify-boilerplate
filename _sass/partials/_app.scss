@@ -21,6 +21,7 @@ header,footer{
   @media (max-width: 900px) {
     align-self:stretch;
     align-content: center;
+    height: fit-content;
 }
 }
 
@@ -36,7 +37,7 @@ body > * {
 header {
   grid-column: full;
   font-size: large;
-  height: 35px;
+  height: 40px;
   display: grid;
   background-color: $brand-color;
   padding: 1.5rem;
