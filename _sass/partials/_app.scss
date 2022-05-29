@@ -67,18 +67,6 @@ header,footer{
 }
 
 div[style="display: block;"], div[role="navigation"] {background: rgba(0,0,0,.5) !important}
-  a,
-  a:visited {
-    text-decoration: none;
-    border: 0;
-    color: rgb(108, 143, 112);
-    @media screen and (min-width: $screen-sm-min) {
-      padding: 1rem;
-    }
-  }
-  a:hover {
-    color: rgb(131, 131, 131);
-  }
 
 // main menu, is a grid item
 header > nav {
