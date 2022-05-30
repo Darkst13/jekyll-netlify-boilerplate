@@ -29,15 +29,15 @@ body {
 a, a * {
   color: #409B9B;}
 a:hover, a:hover *, a:visited:hover, a:visited:hover *, span[onclick]:hover, div[onclick]:hover, [role="link"]:hover, [role="link"]:hover *, [role="button"]:hover *, [role="menuitem"]:hover, [role="menuitem"]:hover *, .link:hover, .link:hover * {
-  color: #F0F0F0 !important;
-  text-shadow: 0 0 5px rgba(255,255,200,0.9) !important}
+  color: #F0F0F0;
+  text-shadow: 0 0 5px rgba(255,255,200,0.9)}
 a:visited, a:visited * {
-  color: #607069 !important}
+  color: #607069}
 a.highlight, a.highlight *, a.active, a.active *, .selected, .selected *, [href="#"] {
-  color: #DDD !important;
-  font-weight: bold !important}
+  color: #DDD;
+  font-weight: bold}
 h1, h2, h3, h4, h5, h6, h1 *, h2 *, h3 *, strong, [id*="headline"], [class*="headline"], [id*="header"], [class*="header"], [class*="header"] td {
-  color: #DDD !important}
+  color: #DDD}
 
 h1,h2,h3,h4,h5,h6,figure {
   p + &,
