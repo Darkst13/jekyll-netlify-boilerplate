@@ -29,16 +29,18 @@ body {
 
 a:hover, a:hover *, a:visited:hover, a:visited:hover *, span[onclick]:hover, div[onclick]:hover, [role="link"]:hover, [role="link"]:hover *, [role="button"]:hover *, [role="menuitem"]:hover, [role="menuitem"]:hover *, .link:hover, .link:hover * {
   color: $link-hover-color;
-  text-decoration: none;
   text-shadow: 0 0 5px rgba(255,255,200,0.9)}
 a:visited, a:visited * {
-  text-decoration: none;
   color: $link-color;}
 a.highlight, a.highlight *, a.active, a.active *, .selected, .selected *, [href="#"] {
   color: #DDD;
-  text-decoration: none;
   font-weight: bold}
   
+a.dark{
+  font-family: 'Rubik Glitch', cursive;
+  color: black;
+  font-weight: bolder;
+}
 a{
     font-family: 'Lemonada', cursive;
     text-decoration: none;
