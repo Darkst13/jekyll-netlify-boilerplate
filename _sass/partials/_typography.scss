@@ -30,14 +30,19 @@ a, a * {
   color: #409B9B;}
 a:hover, a:hover *, a:visited:hover, a:visited:hover *, span[onclick]:hover, div[onclick]:hover, [role="link"]:hover, [role="link"]:hover *, [role="button"]:hover *, [role="menuitem"]:hover, [role="menuitem"]:hover *, .link:hover, .link:hover * {
   color: #F0F0F0;
+  text-decoration: none;
   text-shadow: 0 0 5px rgba(255,255,200,0.9)}
 a:visited, a:visited * {
+  text-decoration: none;
   color: #607069}
 a.highlight, a.highlight *, a.active, a.active *, .selected, .selected *, [href="#"] {
   color: #DDD;
+  text-decoration: none;
   font-weight: bold}
 h1, h2, h3, h4, h5, h6, h1 *, h2 *, h3 *, strong, [id*="headline"], [class*="headline"], [id*="header"], [class*="header"], [class*="header"] td {
-  color: #DDD}
+  color: #DDD;
+  text-decoration: none;
+}
 
 h1,h2,h3,h4,h5,h6,figure {
   p + &,
@@ -89,19 +94,6 @@ strong {
 
 small {
 	font-size: 1.2rem;
-}
-
-a,
-a:visited {
-  font-family: 'Lemonada', cursive;
-  border-bottom: 0.05em solid $link-color;
-	color: $link-color;
-}
-
-a:hover,
-a:active {
-  border: 0;
-  color: $link-hover-color;
 }
 
 header > h1 {
