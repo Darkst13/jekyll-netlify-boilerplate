@@ -83,8 +83,7 @@ header > nav {
       @media screen and (min-width: $screen-sm-min) {
         margin-right: 0;
       }
-      a,
-      a:visited {
+      a {
         color: white;
         border: 0;
         @media screen and (min-width: $screen-sm-min) {
@@ -95,7 +94,7 @@ header > nav {
         }
       }
       a:hover {
-        color: white;
+        color: rgb(233, 233, 233);
       }
     }
   }

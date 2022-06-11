@@ -24,14 +24,14 @@ body {
   font-weight: $base-font-weight;
   font-style: normal;
 	font-variant: normal;
-  font-size: 2rem; // this is equivalent to 16px
+  font-size: 1.8rem; // this is equivalent to 16px
 }
 
 a:hover, a:hover *, a:visited:hover, a:visited:hover *, span[onclick]:hover, div[onclick]:hover, [role="link"]:hover, [role="link"]:hover *, [role="button"]:hover *, [role="menuitem"]:hover, [role="menuitem"]:hover *, .link:hover, .link:hover * {
   color: $link-hover-color;
   text-shadow: 0 0 5px rgba(255,255,200,0.9)}
 a:visited, a:visited * {
-  color: $link-color;}
+  color: $link-visited;}
 a.highlight, a.highlight *, a.active, a.active *, .selected, .selected *, [href="#"] {
   color: #DDD;
   font-weight: bold}
@@ -45,6 +45,7 @@ a.dark{
 a{
     font-family: 'Lemonada', cursive;
     text-decoration: none;
+    color: $link-color;
 }
 
 h1,h2,h3,h4,h5,h6,figure {
