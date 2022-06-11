@@ -8,6 +8,7 @@
 // the body element is our primary layout grid
 body {
   background-color: $backgrund-color;
+  background: rgb(11, 189, 168) url("https://styles.redditmedia.com/t5_2qmjl/styles/bannerBackgroundImage_2qok6gpoiud71.png?width=4000&s=6b7f7b1846d648c37b4c12393a8ba2fe067300ca") no-repeat scroll center center / cover;
   height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
