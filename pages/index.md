@@ -1,6 +1,6 @@
 ---
 layout: home
-title: مرحباً
+title: مرحبا
 permalink: /
 section: home
 intro_paragraph: >
