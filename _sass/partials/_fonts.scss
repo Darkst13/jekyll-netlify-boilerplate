@@ -1,6 +1,10 @@
 // add font-face or font import declarations here
 @import url('https://fonts.googleapis.com/css2?family=Harmattan&family=Lateef&family=Noto+Sans+Arabic&family=Reem+Kufi&family=Rubik+Glitch&display=swap');
 
+@font-face {
+    font-family: font1;
+    src: url(https://alfont.com/wp-content/fonts/naskh-arabic-fonts//alfont_com_Afsaneh-Font.ttf);
+}
 
 //font-family: 'Harmattan', sans-serif;
 //font-family: 'Lateef', cursive;
