@@ -1,11 +1,29 @@
-<header>
 
-  <h1>
-    <a href="/" class="dark">{{ site.title | escape }}</a>
-  </h1>
- 
-  <nav>
+<link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="/admin/preview-templates/scrpit.js"></script>
+<header class="main_h">
+
+  <div class="row">
+      <a class="logo" href="#"> {{ site.title | escape }}</a>
+      <nav>
+        {% include navigation.html navigation=site.data.navigation %}
+      </nav>
+
+  </div> <!-- / row -->
+</header>
+
+
+<div class="hero">
+  <h1><span>One step into the</span><br>DARK</h1>
+  <nav class="mobile-toggle">
     {% include navigation.html navigation=site.data.navigation %}
   </nav>
 
-</header>
+  <div class="arrow">
+    <span></span>
+    <span></span>
+    <span></span>
+
+</div>
+</div>

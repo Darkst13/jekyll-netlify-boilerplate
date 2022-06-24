@@ -27,26 +27,87 @@ body {
   font-size: 1.8rem; // this is equivalent to 16px
 }
 
-a:hover, a:hover *, a:visited:hover, a:visited:hover *, span[onclick]:hover, div[onclick]:hover, [role="link"]:hover, [role="link"]:hover *, [role="button"]:hover *, [role="menuitem"]:hover, [role="menuitem"]:hover *, .link:hover, .link:hover * {
-  color: $link-hover-color;
-  text-shadow: 0 0 5px rgba(255,255,200,0.9)}
-a:visited, a:visited * {
-  color: $link-visited;}
-a.highlight, a.highlight *, a.active, a.active *, .selected, .selected *, [href="#"] {
-  color: #DDD;
-  font-weight: bold}
+
+main a {
+  color: #005555;
+  display: inline-block;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   
-a.dark{
-  font-family: 'Rubik Glitch', cursive;
-  color: black;
-  font-weight: bolder;
-  font-size: x-large;
+  &:hover {
+    transform: translateY(-3px);
+    color: lighten(#069A8E, 15%);
+  }
+}
+
+.logo {
+  color: $logo-color;
+  display: inline-block;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  
+  &:hover {
+    transform: translateY(-3px);
+    color: lighten($logo-hover-color, 15%);
+  }
+}
+
+.navigation, footer a {
+	display: inline-block;
+	position: relative;
+	color: $navigation-color;
+	text-decoration: none;
+	&::after {
+		content: '';
+		position: absolute;
+		width: 100%;
+		transform: scaleX(0);
+		border-radius: 5px;
+		height: 0.05em;
+		bottom: 0;
+		left: 0;
+		background: currentcolor;
+		transform-origin: bottom;
+		transition: transform 0.25s ease-out;
+	}
+	&:hover {
+		&::after {
+			transform: scaleX(1);
+			transform-origin: bottom;
+		}
+	}
+}
+
+
+.hero h1{
+  color:$hero-h1;
+  font-family: $hero--h1-font;
+  font-size: 70px;
+  position:relative;
+  margin:0 auto;
+}
+@keyframes noise-anim{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+
+.hello{
+  font-size: 3rem;
+  text-align: center;
+  font-family: hellofont;
 }
 a{
-    font-family: 'Lemonada', cursive;
-    text-decoration: none;
-    color: $link-color;
+  text-decoration: none;
 }
+
 
 h1,h2,h3,h4,h5,h6,figure {
   p + &,
@@ -61,7 +122,7 @@ p,a,ul,li{
 
 
 p.intro {
-  font-size: 2.4rem;
+  font-size: 2rem;
   direction: rtl;
   color: lighten($text-color, 40%);
   padding-bottom: 4rem;

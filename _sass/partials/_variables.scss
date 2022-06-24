@@ -1,19 +1,25 @@
+
 // site colours
 $backgrund-color: #0e0e15;
 $text-color: rgb(221, 217, 217);
-$text-color-negative: rgb(255, 0, 0);
-$brand-color: #151523;
-$link-color: #8105D8;
-$link-hover-color: #d6d6d6;
-$link-visited: #4D089A;
+$text-color-negative: rgb(180, 180, 180);
+$brand-color: #0b0b11;
+$link-color: #646FD4;
+$link-hover-color: #242F9B;
 $grey-bg-color: #151523;
-$hairline-color: rgb(230,230,230);
+$hairline-color: white;
 $selection-bg-color: #009494;
-
+$logo-color: #4C5F7A; 
+$logo-hover-color: #393E6F;
+$navigation-color: white;
+$hero-h1: black;
 
 // typographic defaults
-$base-font: 'Lateef';
-$subfont: 'Noto Sans Arabic';
+$base-font: 'Lateef', cursive;
+$subfont:  headerfont;
+$bold-font: 'Harmattan', sans-serif;
+$hero--h1-font: insomnia;
+$logo-font: zombi;
 $code-font: Courier, monospace;
 $base-font-size: 80.5%;
 $base-font-weight: 300;
